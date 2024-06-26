@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+##cloning git repository
+git clone <url>
+
+##running angular app
+open MOHCC attachees in vs code and open terminal
+
+## installing angular packages
+run npm install command
+
+## run project
+ng serve
+
+
+
+
