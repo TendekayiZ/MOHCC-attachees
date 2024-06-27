@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +13,7 @@ import { RegisterComponent } from './register/register.component';
 import { SymptomsComponent } from './symptoms/symptoms.component';
 import { StiComponent } from './sti/sti.component';
 import { StdComponent } from './std/std.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -24,13 +26,15 @@ import { StdComponent } from './std/std.component';
     SymptomsComponent,
     StiComponent,
     StdComponent,
+    ContactComponent,
 
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
