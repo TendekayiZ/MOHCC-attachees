@@ -7,6 +7,7 @@ import { SymptomsComponent } from './symptoms/symptoms.component';
 import { StiComponent } from './sti/sti.component';
 import { StdComponent } from './std/std.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 const routes: Routes = [
@@ -17,7 +18,8 @@ const routes: Routes = [
   { path: 'sti', component: StiComponent},
   { path: 'std', component: StdComponent},
   { path: 'forgot-password', component: ForgotPasswordComponent},
-  { path: 'home', component:HomeComponent}
+  { path: 'home', component:HomeComponent},
+  { path: 'contact', component: ContactComponent},
 
 ];
 
