@@ -9,9 +9,7 @@ import { Router } from '@angular/router';
 export class HomeComponent {
   constructor(private router: Router) {}
 
-  navigateToSymptomsPage() {
-    this.router.navigate(['/symptoms']);
-  }
+  
 [x: string]: any;
 onSubmit() {
 throw new Error('Method not implemented.');

@@ -6,6 +6,7 @@ import { RegisterComponent } from './register/register.component';
 import { SymptomsComponent } from './symptoms/symptoms.component';
 import { StiComponent } from './sti/sti.component';
 import { StdComponent } from './std/std.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
@@ -15,6 +16,7 @@ const routes: Routes = [
   { path: 'symptoms', component: SymptomsComponent},
   { path: 'sti', component: StiComponent},
   { path: 'std', component: StdComponent},
+  { path: 'login', component: LoginComponent},
 
 ];
 

@@ -12,6 +12,7 @@ import { RegisterComponent } from './register/register.component';
 import { SymptomsComponent } from './symptoms/symptoms.component';
 import { StiComponent } from './sti/sti.component';
 import { StdComponent } from './std/std.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { StdComponent } from './std/std.component';
     SymptomsComponent,
     StiComponent,
     StdComponent,
+    LoginComponent,
 
 
   ],
