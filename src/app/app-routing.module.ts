@@ -8,6 +8,7 @@ import { StiComponent } from './sti/sti.component';
 import { StdComponent } from './std/std.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { ContactComponent } from './contact/contact.component';
+import { LoginComponent } from './login/login.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,7 @@ const routes: Routes = [
   { path: 'forgot-password', component: ForgotPasswordComponent},
   { path: 'home', component:HomeComponent},
   { path: 'contact', component: ContactComponent},
+  {path: 'login', component: LoginComponent},
 
 ];
 

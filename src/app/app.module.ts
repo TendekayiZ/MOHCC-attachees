@@ -13,6 +13,7 @@ import { SymptomsComponent } from './symptoms/symptoms.component';
 import { StiComponent } from './sti/sti.component';
 import { StdComponent } from './std/std.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
+import { LoginComponent } from './login/login.component';
 
 
 @NgModule({
@@ -26,6 +27,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
     StiComponent,
     StdComponent,
     ForgotPasswordComponent,
+    LoginComponent,
   
 
 
