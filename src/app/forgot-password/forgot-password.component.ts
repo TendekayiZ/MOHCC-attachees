@@ -14,15 +14,29 @@ export class ForgotPasswordComponent {
   verificationCode: new FormControl({}),
   newPassword:new FormControl({}),
   confirmPassword:new FormControl({}),
+
  })
 email: any;
+  router: any;
   
 
 constructor(){}
 ngOnInit(): void{
+  this.resetPassword();
+  this.getVerificationCode();
 
 }
-submitResetDetails(){
-
+getVerificationCode = ()=>{
+  
 }
+
+
+resetPassword = ()=>{
+  if (this.resetForm.valid) {
+    console.log('Password Reset Successfully!', this.resetForm.value);
+    this.router.navigate(['/login']);
+  }
+}
+
+
 }
