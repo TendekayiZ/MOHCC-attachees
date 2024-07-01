@@ -16,6 +16,7 @@ import { StdComponent } from './std/std.component';
 import { ContactComponent } from './contact/contact.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +28,7 @@ import { ContactComponent } from './contact/contact.component';
     StiComponent,
     StdComponent,
     ContactComponent,
+  
 
 
   ],
