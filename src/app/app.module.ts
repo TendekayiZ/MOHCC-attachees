@@ -14,6 +14,7 @@ import { StiComponent } from './sti/sti.component';
 import { StdComponent } from './std/std.component';
 import { ForgotPasswordComponent } from './forgot-password/forgot-password.component';
 import { LoginComponent } from './login/login.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({

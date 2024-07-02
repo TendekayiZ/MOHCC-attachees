@@ -1,25 +1,29 @@
+// app.component.ts
 import { Component } from '@angular/core';
-import { RouterModule, Router } from '@angular/router';
-
-
 
 @Component({
-  selector: 'app-home',
+  selector: 'app-root',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css'],
- 
+  styleUrls: ['./home.component.css']
 })
 export class HomeComponent {
-  constructor(private router: Router) {}
+  currentYear = new Date().getFullYear();
 
-  
-[x: string]: any;
-onSubmit() {
-throw new Error('Method not implemented.');
-}
-onCancel() {
-throw new Error('Method not implemented.');
-}
-loginForm: any;
-
+  services = [
+    {
+      icon: 'vial',
+      title: 'STI/STD Testing',
+      description: 'Comprehensive testing for a wide range of sexually transmitted infections and diseases.'
+    },
+    {
+      icon: 'medkit',
+      title: 'Treatment',
+      description: 'Effective treatment and management of STIs/STDs, with discreet and confidential care.'
+    },
+    {
+      icon: 'comments',
+      title: 'Counseling',
+      description: 'Personalized counseling and education to promote sexual health and well-being.'
+    }
+  ];
 }

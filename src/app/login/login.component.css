@@ -94,4 +94,6 @@ body{
     color: #007bff;
     text-decoration: none;
   }
-  
+  .body{
+    background-image: url(../../assets/images/kk3.jpg);
+   }

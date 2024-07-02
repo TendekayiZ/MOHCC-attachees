@@ -31,4 +31,18 @@ build/
 
 ### VS Code ###
 .vscode/
-node_modules
+.node_modules
+.hintrc
+.mvnw
+.mvnw.cmd
+.package-lock.json
+.package.json
+.pom.xml
+.README.md 
+.tsconfig.app.json 
+.tsconfig.json 
+.tsconfig.spec.json
+.favicon.ico
+.test
+.angular.json
+.angular/cache/16.2.14

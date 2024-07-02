@@ -1,2 +1,36 @@
-<p>home work</p>
+<!-- app.component.html -->
+<body>
 
+    <header>
+    <h1>Student STI/STD Clinic</h1>
+  </header>
+  
+  <div class="hero">
+    <div>
+      <h2>Your Health, Our Priority</h2>
+      <p>Discreet and confidential STI/STD testing and treatment for students.</p>
+      <a href="#services" class="btn">Our Services</a>
+    </div>
+  </div>
+  
+  <div class="services" id="services">
+    <h2>Our Services</h2>
+    <div class="service-item" *ngFor="let service of services">
+      <i class="fa fa-{{service.icon}}"></i>
+      <h3>{{service.title}}</h3>
+      <p>{{service.description}}</p>
+    </div>
+  </div>
+  
+  <div class="about">
+    <h2>About Our Clinic</h2>
+    <p>
+      Our student-focused STI/STD clinic provides comprehensive testing, treatment, and counseling services in a safe and confidential environment. Our experienced healthcare professionals are dedicated to promoting sexual health and empowering students to make informed choices.
+    </p>
+  </div>
+  
+  <footer>
+    <p>&copy; {{ currentYear }} Student STI/STD Clinic. All rights reserved.</p>
+  </footer>
+
+</body>
