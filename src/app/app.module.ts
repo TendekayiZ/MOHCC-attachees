@@ -27,7 +27,7 @@ import { LoginComponent } from './login/login.component';
     SymptomsComponent,
     StiComponent,
     StdComponent,
-
+    ForgotPasswordComponent,
     LoginComponent,
 
   
