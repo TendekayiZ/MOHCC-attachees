@@ -16,6 +16,7 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { LoginComponent } from './login/login.component';
 
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,8 +27,9 @@ import { LoginComponent } from './login/login.component';
     SymptomsComponent,
     StiComponent,
     StdComponent,
-    ForgotPasswordComponent,
+
     LoginComponent,
+
   
 
 
