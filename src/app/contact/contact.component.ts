@@ -10,6 +10,8 @@ export class ContactComponent {
   email: string = '';
   message: string = '';
 onSubmit: any;
+form: any;
+submitted: any;
 
   submitContact() {
     // Implement logic to submit the contact form

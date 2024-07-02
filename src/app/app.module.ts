@@ -28,6 +28,7 @@ import { LoginComponent } from './login/login.component';
     StdComponent,
     ForgotPasswordComponent,
     LoginComponent,
+    ContactComponent
   
 
 
