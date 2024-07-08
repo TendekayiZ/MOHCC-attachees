@@ -31,6 +31,10 @@ build/
 
 ### VS Code ###
 .vscode/
+node_modules
+.angular/cache/16.2.14
+
+
 .node_modules
 .hintrc
 .mvnw

@@ -22,7 +22,9 @@ const routes: Routes = [
   { path: 'forgot-password', component: ForgotPasswordComponent},
   { path: 'home', component:HomeComponent},
   { path: 'contact', component: ContactComponent},
+
   {path: 'login', component: LoginComponent},
+
 
 ];
 

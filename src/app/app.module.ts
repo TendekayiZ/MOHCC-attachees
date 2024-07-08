@@ -29,6 +29,7 @@ import { ContactComponent } from './contact/contact.component';
     StdComponent,
     ForgotPasswordComponent,
     LoginComponent,
+
     ContactComponent
   
 
@@ -39,6 +40,7 @@ import { ContactComponent } from './contact/contact.component';
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
+   
   ],
   providers: [],
   bootstrap: [AppComponent]
